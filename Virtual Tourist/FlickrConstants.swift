@@ -31,7 +31,6 @@ extension FlickerClient {
         struct FlickrParameterKeys {
             static let Method = "method"
             static let APIKey = "api_key"
-            static let GalleryID = "gallery_id"
             static let Extras = "extras"
             static let Format = "format"
             static let NoJSONCallback = "nojsoncallback"
@@ -48,8 +47,6 @@ extension FlickerClient {
             static let APIKey = "7376f07dd718d317a592c2b6b0e4d2b8"
             static let ResponseFormat = "json"
             static let DisableJSONCallback = "1" /* 1 means "yes" */
-            static let GalleryPhotosMethod = "flickr.galleries.getPhotos"
-            static let GalleryID = "5704-72157622566655097"
             static let MediumURL = "url_m"
             static let UseSafeSearch = "1"
             static let PerPage = "12"
@@ -60,10 +57,8 @@ extension FlickerClient {
             static let Status = "stat"
             static let Photos = "photos"
             static let Photo = "photo"
-            static let Title = "title"
             static let MediumURL = "url_m"
             static let Pages = "pages"
-            static let Total = "total"
         }
         
         // MARK: Flickr Response Values
